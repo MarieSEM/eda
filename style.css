@@ -3,27 +3,33 @@
     margin: 0; 
     padding: 0;
   }
+  html{
+    font-size: 62.5%;
+  }
 body {
     font-family: 'Open Sans Condensed', sans-serif;
     background-image: url("page-web.jpg");
     font-size: 13px;
     margin: 0px;
     padding: 0px;
+    
 }
- h1 {
-  /* position: absolute; */
-  /* top: auto; */
-  /* width: auto; */
+ nav h1 {
+
   font-size: 30px;
   font-weight: normal;
-  text-align: center;
   text-transform: capitalize;
   color:fuchsia; 
+  margin: auto 18rem;
+  padding: 4rem;
+  justify-content: baseline;
+  margin-bottom: 3rem;
+
   
 }
-header{
-  height: 100px;
-}
+
+  
+
  footer{
   height: 80px;
   padding-top: 30px;
@@ -31,27 +37,51 @@ header{
   background-color: #FC427B;
   border-top: 2px solid #aaa;
 }
+
 nav{
   width: 100%;
+  display: flex;
+  justify-content: center;
   background-color: #424558;
+  height: 20rem;
+  flex-direction: column;
+
 }
+nav a img{
+  height: 15rem;
+  width: 15rem;
+  top: 2rem;
+  left: 2rem;
+  position: absolute;
+
+}
+
 nav ul{
-  margin: 0px;
-  padding: 0px;
+display: flex;
+margin: 0 auto;
+justify-content: flex-end;
+position: fixed;
+top: 2rem;
+right: 2rem;
+
 }
+
 nav li{
   list-style-type: none;
-  floot:left
-}nav a{display: inline-block;
-text-decoration: none;
-padding: 20px 30px;
-color: #FFF;
-text-transform: uppercase;
-font-size: 15px;
+  /* float: right; */
+  flex-direction: column;
+/* justify-content: right; */
+align-items: flex-end;
+justify-content: flex-end;
 }
-.struct{
-display: struct;
-margin: 0 auto;
+
+nav a{
+  /* display: inline-block; */
+  text-decoration: none;
+  padding: 20px 30px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 .menu-ind:hover{
   border-top: 5px solid #4C8;
@@ -86,16 +116,16 @@ section{
   margin: 0px 10%;
 }
 .left{
-  floot:left;
+  float:left;
   width: 30%;
 }
 .right{
-  floot: left;
+  float: left;
   width: 70%;
 }
 .cleft, .cright, .sousleft, .sousright{
   width: 50%;
-  floot: left;
+  float: left;
 }
 .sec::after, exp::after, .reco::after{
   content:"";
