@@ -1,54 +1,387 @@
-body{
+
+  *{
+    margin: 0; 
+    padding: 0;
+  }
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-image: url("page-web.jpg");
+    font-size: 13px;
     margin: 0px;
     padding: 0px;
-    background-color: fuchsia;
-
 }
-h1{
-    position: absolute;
-    top: auto;
-    width: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    text-align: center;
-}
-p{
-    color: blanchedalmond;
-}
-#div1, #div2, #div3, 
-  
-
-   
+ h1 {
+  /* position: absolute; */
+  /* top: auto; */
+  /* width: auto; */
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: capitalize;
+  color:fuchsia; 
   
 }
-#div1{
-    background-color: orange;
+header{
+  height: 100px;
 }
-#div2{
-    background-color: blue;
+ footer{
+  height: 80px;
+  padding-top: 30px;
+  text-align: center;
+  background-color: #FC427B;
+  border-top: 2px solid #aaa;
 }
-#div3{
-    background-color: green;
+nav{
+  width: 100%;
+  background-color: #424558;
+}
+nav ul{
+  margin: 0px;
+  padding: 0px;
+}
+nav li{
+  list-style-type: none;
+  floot:left
+}nav a{display: inline-block;
+text-decoration: none;
+padding: 20px 30px;
+color: #FFF;
+text-transform: uppercase;
+font-size: 15px;
+}
+.struct{
+display: struct;
+margin: 0 auto;
+}
+.menu-ind:hover{
+  border-top: 5px solid #4C8;
+  background-color: rgba(64, 200, 130, 0.15);
+}
+.menu-cour:hover{
+  border-top: 5px solid #f1dc4f;
+  background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-plan:hover{
+  border-top: 5px solid #0070dd;
+  background-color: rgba(000, 112, 192, 0.15);
+}
+.menu-évén:hover{
+  border-top: 5px solid #e44de6;
+  background-color: rgba(228, 77, 38, 0.15);
+}
+.menu-cont:hover:hover{
+  border-top: 5px solid #ff6347;
+  background-color: rgba(255, 165, 0, 0.15);
+}
+nav li:hover a{
+  padding:  15px 20px 30px;
+}
+section{
+  width: 100%;
+  min-height: 300px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.sec{
+  margin: 0px 10%;
+}
+.left{
+  floot:left;
+  width: 30%;
+}
+.right{
+  floot: left;
+  width: 70%;
+}
+.cleft, .cright, .sousleft, .sousright{
+  width: 50%;
+  floot: left;
+}
+.sec::after, exp::after, .reco::after{
+  content:"";
+  display: table;
+  clear:both;
 }
 
-#footer{
-    width: 100%;
-    height: 200px;
-    margin-top: 20px;
-    border-top: 1ps solid black;
+
+
+
+@media screen and (max-width: 780px) {
+  header{
+    height: 50px;
+  }
+  h1{
+    font-size: 28px;
+    margin: 20px 0px 0p 0px;
+  }
+  nav li a{
+    font-size: 12px;
+    padding: 10px;
+  }
+  nav li:hover a{
+    padding: 5px 10px 10px 10px;
+  }
+
+
+    
+  }
+ background: linear-gradient(rgba(238, 15, 15, 0.7), rgba(0, 0, 0, 0.7));
+#page-bg{}
+
+  url("seyes.jpg") center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+<main{
+    margin: 0 2rem;
+    padding: 1rem;
+    position: relative;
+    }
+
+
+<h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-transform: capitalize;
     text-align: center;
-    background-color: #ccc;
+        color: fuchsia; 
+  text-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+  font-size: 30px;
 }
-@media screen and (max-width: 780px){
-    #div1, #div2, #div3, #div4, #div5, #div6{
-        width: 100%;
-        height: 260px;
-        border-right: none;
-        border-left: none;
-        margin-right: 0px;
+<div1{
+  background-color: -webkit-linear-gradient(left, red, orange, blue);
+  background-color:  -o-linear-gradient(right, red, orange, blue);
+  background-color:  -moz-linear-gradient(right, red, orange, blue);
+  background-color: linear-gradient(to right, red, orange, blue);
 }
-#footer{
-    display: none;
+
+<h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+    text-align: center;
+    color: fuchsia; 
+  text-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+  font-size: 30px;
 }
+<h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+    text-align: center;
+    color: fuchsia; 
+  text-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+  font-size: 30px;
 }
-@media screen and(orientation: landscape){}
+<h5{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+    text-align: center;
+    color: fuchsia; 
+  text-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+  font-size: 30px;
+}
+<h6{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+    text-align: center;
+    color: fuchsia; 
+  text-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+  font-size: 30px;
+}
+<h7{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-size: 15px;
+    text-align: center;
+   height: 15px;
+  background-color: white;
+   text-align: center;
+    color: #FC427B;
+
+}
+
+
+
+
+ph1{
+  background-color: ;
+}
+<p2{
+  color: #000ff0;
+  height: 200px;
+  width: 100%;
+  padding: auto 0 auto 0 ;
+  border-radius: 4rem;
+  background-color: whitesmoke;
+  box-shadow: 0rem 1rem 5rem rgb(120, 120, 120);
+  text-align: center;
+  display: inline;
+  border: 1px solid black;
+}
+<p3{
+color: #000ff0;
+height: 200px;
+width: 100%;
+padding: auto 0 auto 0 ;
+border-radius: 4rem;
+background-color: whitesmoke;
+box-shadow: 0rem 1rem 5rem rgb(120, 120, 120);
+text-align: center;
+display: inline;
+border: 1px solid black;
+}
+<p4{
+  color: #000ff0;
+  height: 200px;
+  width: 100%;
+  padding: auto 0 auto 0 ;
+  border-radius: 4rem;
+  background-color: whitesmoke;
+  box-shadow: 0rem 1rem 5rem rgb(120, 120, 120);
+  text-align: center;
+  display: inline;
+border: 1px solid black;
+}
+<p5{
+  color: #000ff0;
+  height: 200px;
+  width: 100%;
+  padding : auto 0 auto 0 ;
+  border-radius: 4rem;
+  background-color: whitesmoke;
+  box-shadow: 0rem 1rem 5rem rgb(120, 120, 120);
+  text-align: center;
+  display: inline;
+  border: 1px solid black;
+}
+<p6{
+color: ;
+height: auto;
+padding: auto;
+background: 3px;
+border-radius: 3rem;
+}
+<p7{
+  color: ;
+height: auto;
+padding: auto;
+background: 2px;
+border-radius: 2rem;
+}
+<p8{
+  color: ;
+  height: auto;
+  padding: auto;
+  background: 2px;
+  border-radius: 2rem;
+}
+
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: black;
+}
+planning{
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 5;
+  font-family: verdana, sans-serif;
+
+  background-color: crimson;
+  background-image: url('ardoise.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-attachment: center;
+
+  padding-top: 2px;
+  padding-right: 1px;
+  padding-bottom: 0px;
+  padding-left: 1px;
+
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  margin-left: 1px;
+}
+exp, exp1 tr{
+  background-color: violet;
+}
+exp, exp1, exp2 {
+  background-color: thistle;
+}
+plan{
+  font-style: italic;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 5;
+  font-family: verdana, sans-serif;
+  text-align: center;
+  background-color: yellow;
+
+}
+plan1{
+  font-style: italic;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 5px;
+  font-family: verdana, sans-serif;
+  text-align: center;
+  background-color: yellow;
+}
+plan2{
+  font-style: italic;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 5px;
+  font-family: verdana, sans-serif;
+  text-align: center;
+  background-color: yellow;
+}
+plan3{
+  font: italic normal 25px/5px verdana, sans-serif;
+}
+pause{
+  font:italic normal 25px/5px verdana, sans-serif;
+}
+french{
+font-size: (5px);
+}
+
+span{
+  display: inline;
+  border: 1px solid black;
+  
+}
+para{
+  background-color: -webkit-linear-gradient(top left, red, orange, blue);
+  background-color:  -o-linear-gradient(bottom right, red, orange, blue);
+  background-color:  -moz-linear-gradient(bottom right, red, orange, blue);
+  background-color: linear-gradient(to bottom right, red, orange, blue);
+}
+
+table{
+  border-collapse: collapse;
+}
+td{
+  border: 1px solid black;
+  padding: 10px;
+}
+tr:nth-child(even){
+background-color: #FC427B;
+}
+tr:nth-child(odd){
+background-color: orangered;
+}
+
+
+}
+  
+@media screen and(orientation: landscape) {
+}
