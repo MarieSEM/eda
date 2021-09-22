@@ -95,7 +95,7 @@ nav a{
   border-top: 5px solid #0070dd;
   background-color: rgba(000, 112, 192, 0.15);
 }
-.menu-évén:hover{
+.menu-even:hover{
   border-top: 5px solid #e44de6;
   background-color: rgba(228, 77, 38, 0.15);
 }
@@ -131,6 +131,11 @@ section{
   content:"";
   display: table;
   clear:both;
+}
+.leftexp a img{
+  height: 15rem;
+  width: 15rem;
+  position: absolute;
 }
 
 
@@ -305,6 +310,33 @@ border-radius: 2rem;
   padding: auto;
   background: 2px;
   border-radius: 2rem;
+}
+.mat{
+  font-size: 50px;
+  font-weight: normal;
+  text-transform: capitalize;
+  color:fuchsia;
+}
+.F{
+color: #FFF;
+font-size: 20px;
+font-family: georgia,palatino,'book antiqua','palatino linotype',serif;
+background-color: aqua;
+}
+.F1{
+  color: #FFF;
+}
+.F2{
+  color: #FFF;
+}
+.F3{
+  color: #FFF;
+}
+.F4{
+  color: #FFF;
+}
+.case{
+
 }
 
 {
