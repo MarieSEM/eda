@@ -19,7 +19,7 @@ body {
   font-size: 30px;
   font-weight: normal;
   text-transform: capitalize;
-  color:fuchsia; 
+  color:white; 
   margin: auto 18rem;
   padding: 4rem;
   justify-content: baseline;
@@ -31,18 +31,19 @@ body {
   
 
  footer{
-  height: 80px;
-  padding-top: 30px;
+  height: 150px;
+  padding-top: 40px;
   text-align: center;
   background-color: #FC427B;
   border-top: 2px solid #aaa;
+  color: white;
 }
 
 nav{
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #424558;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
   height: 20rem;
   flex-direction: column;
 
@@ -73,6 +74,7 @@ nav li{
 /* justify-content: right; */
 align-items: flex-end;
 justify-content: flex-end;
+
 }
 
 nav a{
@@ -112,30 +114,179 @@ section{
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-.sec{
+sec{
   margin: 0px 10%;
 }
-.left{
+left{
   float:left;
   width: 30%;
 }
-.right{
+right{
   float: left;
   width: 70%;
 }
-.cleft, .cright, .sousleft, .sousright{
+cleft, .cright, .sousleft, .sousright{
   width: 50%;
   float: left;
 }
-.sec::after, exp::after, .reco::after{
+sec::after, exp::after, .reco::after{
   content:"";
   display: table;
   clear:both;
 }
-.leftexp a img{
+leftexp a img{
   height: 15rem;
   width: 15rem;
   position: absolute;
+}
+block,
+rightexp li{
+  border: 2px solid rebeccapurple;
+  padding: 5rem;
+}
+.title{
+  font-size: 30px;
+  font-family: cursive;
+  color: white;
+  width: 50%;
+  text-align: center;
+}
+#F{
+  font-size: 30px;
+  font-family: cursive;
+  color: white;
+  width: 50%;
+  text-align: center;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  
+}
+#F1{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  background-color: rgb(255, 128, 0);
+  
+  
+}
+#F2{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  font-family: cursive;
+  background-color: rgb(255, 153, 0);
+
+}
+#F3{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  background-color: rgb(255, 179, 0);
+  font-family: cursive;
+  
+}
+#F4{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  background-color: rgb(255, 204, 0);
+}
+#F5{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  background-color: rgb(255, 230, 0);
+}
+#M{
+  font-size: 30px;
+  font-family: cursive;
+  color: white;
+  width: 50px;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+#M1{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  background-color: rgb(230, 0, 255);
+  
+}
+#M2{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  font-family: cursive;
+  background-color: rgb(255, 0, 255);
+}
+#M3{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  background-color: rgb(255, 0, 230);
+  font-family: cursive;
+  color: white;
+}
+#M4{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  background-color: rgb(255, 161, 236);
+}
+#M5{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  background-color: rgb(255, 204, 245);
+}
+#EM{
+  font-size: 30px;
+  font-family: cursive;
+  color: white;
+  width: 50px;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+#EM1{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  background-color: rgb(153, 255, 255);
+  
+}
+#EM2{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  font-family: cursive;
+  color: white;
+  background-color: rgb(163, 250, 250);
+}
+#EM3{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  background-color: rgb(199, 255, 255);
+  font-family: cursive;
+  color: white;
+}
+#L{
+  font-size: 30px;
+  font-family: cursive;
+  color: white;
+  width: 50%;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+#L1{
+  font-size: 20px;
+  font-family: cursive;
+  color: white;
+  background-color: #ffcccc;
+}
+#vert1{
+  border-top: 5px solid #e44c96;
+  background-color: rgba(228, 77, 128,0.15);
+  margin-bottom: 0px;
+}
+
+
 }
 
 
@@ -148,6 +299,7 @@ section{
   h1{
     font-size: 28px;
     margin: 20px 0px 0p 0px;
+
   }
   nav li a{
     font-size: 12px;
@@ -155,6 +307,10 @@ section{
   }
   nav li:hover a{
     padding: 5px 10px 10px 10px;
+  }
+  .F1
+
+
   }
 
 
