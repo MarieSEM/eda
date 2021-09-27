@@ -25,6 +25,15 @@ body {
   justify-content: baseline;
   margin-bottom: 3rem;
 }
+#sidebar {
+position: fixed;
+width: 10rem;
+height: auto;
+top: 15%;
+right: 0;
+bottom: 100%;
+left: 0;
+}
 footer{
   height: 150px;
   padding-top: 40px;
@@ -78,23 +87,23 @@ nav a{
   text-transform: uppercase;
   font-size: 15px;
 }
-.menu-ind:hover{
+.menu-ind:hover, .presentation{
   border-top: 5px solid #4C8;
   background-color: rgba(64, 200, 130, 0.15);
 }
-.menu-cour:hover{
+.menu-cour:hover, .Montessori{
   border-top: 5px solid #f1dc4f;
   background-color: rgba(241, 211, 79, 0.15);
 }
-.menu-plan:hover{
+.menu-plan:hover, .specificites{
   border-top: 5px solid #0070dd;
   background-color: rgba(000, 112, 192, 0.15);
 }
-.menu-even:hover{
+.menu-even:hover, .finalites{
   border-top: 5px solid #e44de6;
   background-color: rgba(228, 77, 38, 0.15);
 }
-.menu-cont:hover:hover{
+.menu-cont:hover, .equipe{
   border-top: 5px solid #ff6347;
   background-color: rgba(255, 165, 0, 0.15);
 }
@@ -127,16 +136,8 @@ sec::after, exp::after, .reco::after{
   display: table;
   clear:both;
 }
-leftexp a img{
-  height: 15rem;
-  width: 15rem;
-  position: absolute;
-}
-block,
-rightexp li{
-  border: 2px solid rebeccapurple;
-  padding: 5rem;
-}
+
+
 .title{
   font-size: 30px;
   font-family: cursive;
@@ -144,135 +145,9 @@ rightexp li{
   width: 50%;
   text-align: center;
 }
-#F{
-  font-size: 30px;
-  font-family: cursive;
-  color: white;
-  width: 50%;
-  text-align: center;
-  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
-  
-}
-#F1{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  background-color: rgb(255, 128, 0);
-  
-  
-}
-#F2{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  font-family: cursive;
-  background-color: rgb(255, 153, 0);
 
-}
-#F3{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  background-color: rgb(255, 179, 0);
-  font-family: cursive;
-  
-}
-#F4{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  background-color: rgb(255, 204, 0);
-}
-#F5{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  background-color: rgb(255, 230, 0);
-}
-#M{
-  font-size: 30px;
-  font-family: cursive;
-  color: white;
-  width: 50px;
-  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
-}
-#M1{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  background-color: rgb(230, 0, 255);
-  
-}
-#M2{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  font-family: cursive;
-  background-color: rgb(255, 0, 255);
-}
-#M3{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  background-color: rgb(255, 0, 230);
-  font-family: cursive;
-  color: white;
-}
-#M4{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  background-color: rgb(255, 161, 236);
-}
-#M5{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  background-color: rgb(255, 204, 245);
-}
-#EM{
-  font-size: 30px;
-  font-family: cursive;
-  color: white;
-  width: 50px;
-  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
-}
-#EM1{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  background-color: rgb(153, 255, 255);
-  
-}
-#EM2{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  font-family: cursive;
-  color: white;
-  background-color: rgb(163, 250, 250);
-}
-#EM3{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  background-color: rgb(199, 255, 255);
-  font-family: cursive;
-  color: white;
-}
-#L{
-  font-size: 30px;
-  font-family: cursive;
-  color: white;
-  width: 50%;
-  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
-}
-#L1{
-  font-size: 20px;
-  font-family: cursive;
-  color: white;
-  background-color: #ffcccc;
-}
+
+
 #vert1{
   border-top: 5px solid #e44c96;
   background-color: rgba(228, 77, 128,0.15);
@@ -285,13 +160,10 @@ rightexp li{
 
 
 
-@media screen and (max-width: 780px) {
-  header{
-    height: 50px;
-  }
   h1{
     font-size: 28px;
     margin: 20px 0px 0p 0px;
+    color: ;
 
   }
   nav li a{
@@ -308,7 +180,8 @@ rightexp li{
     margin-bottom: 10px;
   }
   .sec{
-    margin: 0px;
+    margin: 0px 10%;
+    
   }
   .left{
     float: left;
@@ -317,6 +190,11 @@ rightexp li{
   .right{
     float: right;
     width: 50%;
+  }
+  .rouge{
+    border-top: 5px solid #e44d26;
+    background-color: rgba(228,77,38,0.15);
+    text-align: center;
   }
   
   .presentation{
@@ -338,6 +216,11 @@ rightexp li{
 
 
     
+  }
+  
+@media screen and (max-width: 780px) {
+  header{
+    height: 50px;
   }
  background: linear-gradient(rgba(238, 15, 15, 0.7), rgba(0, 0, 0, 0.7));
 #page-bg{}
@@ -557,49 +440,13 @@ exp, exp1 tr{
 exp, exp1, exp2 {
   background-color: thistle;
 }
-plan{
-  font-style: italic;
-  font-weight: normal;
-  font-size: 50px;
-  line-height: 5;
-  font-family: verdana, sans-serif;
-  text-align: center;
-  background-color: yellow;
+}
 
-}
-plan1{
-  font-style: italic;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 5px;
-  font-family: verdana, sans-serif;
-  text-align: center;
-  background-color: yellow;
-}
-plan2{
-  font-style: italic;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 5px;
-  font-family: verdana, sans-serif;
-  text-align: center;
-  background-color: yellow;
-}
-plan3{
-  font: italic normal 25px/5px verdana, sans-serif;
-}
-pause{
-  font:italic normal 25px/5px verdana, sans-serif;
-}
 french{
 font-size: (5px);
 }
 
-span{
-  display: inline;
-  border: 1px solid black;
-  
-}
+
 para{
   background-color: -webkit-linear-gradient(top left, red, orange, blue);
   background-color:  -o-linear-gradient(bottom right, red, orange, blue);
