@@ -421,9 +421,8 @@ text-indent: 80px;
   background: url("logos-sociaux.png") --100px -50px;
   left: 400px;
 }
-
-}
   h1{
+    font-family: 'Neucha', cursive;
     font-size: 28px;
     margin: 20px 0px 0p 0px;
     /*color: fuchsia;*/
@@ -492,29 +491,13 @@ text-indent: 80px;
     background: tomato;
     border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%  ;
   }
-  .Montessori{
-
-  }
-  .spécificités{
-
-  }
-  .finalites{
-    
-  }
   
 @media screen and (max-width: 780px) {
   header{
     height: 50px;
   }
  background: linear-gradient(rgba(238, 15, 15, 0.7), rgba(0, 0, 0, 0.7));
-#page-bg{}
 
-  url("seyes.jpg") center;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-}
 <main{
     margin: 0 2rem;
     padding: 1rem;
