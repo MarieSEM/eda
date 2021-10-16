@@ -35,6 +35,7 @@ left: 0;
 }
 nav{
   width: 100%;
+  /* position: fixed; */
 }
 nav > ul{
   margin: 0px;
@@ -268,7 +269,7 @@ sec::after, exp::after, .reco::after{
   width: 50px;
   height: 10px;
   margin-right: -15px;
-  mix-blend-mode: multiply;
+  /* mix-blend-mode: multiply; */
 }
 .c0{
   background: #ffc30f;
@@ -298,6 +299,7 @@ sec::after, exp::after, .reco::after{
   background: #a59050;
   border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
 }
+
 .cm0{
   background:  #0070dd;
   border-radius: 50% 50% 47% 53% / 27% 27% 73% 73% ;
@@ -353,7 +355,7 @@ text-indent: 80px;
   text-indent: 350px;
 }
 
-.cELM1{
+/*.cELM1{*/
   background:   palevioletred;
   border-radius: 50% 50% 47% 53% / 27% 27% 73% 73% ;
   font-size: 30px;
@@ -361,7 +363,11 @@ text-indent: 80px;
   width: 100px;
   height: 80px;
 }
-.cELM2{
+.cELM0{
+  background: #ff5733;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
+}
+.cELM2{ 
   background: #ffc30f;
   border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
 }
@@ -560,56 +566,112 @@ text-indent: 80px;
     justify-content: center;
   }
   /* style formulaire */
-  .form{
-    background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-  }
-  /* style de la partie laissez un messe */
-  .formulaire{ 
-    background-color: #fefadf;
-    /* margin: 0px; */
-    /* padding: 0px; */
-    /* position: absolute; */
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
-    font-weight: bold;
-  }
-  .form h1{
-    font-size: 20px;
-  }
-  .form .separation{
-    width: 100%;
-    height: 1px;
-    background-color: purple;
-  }
-  .form .corps-formulaire{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-  }
-  .form .corps-formulaire .groupe{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-  }
-  .form .corps-formulaire .gauche .groupe input{
-    margin-top: 5px;
-    padding: 10px 5px 10px 30px;
-    border: 1px solid #33ccff;
-    outline-color: #5898d8;
-    border-radius: ;
-  }
-
-  
-@media screen and (max-width: 780px) {
-  header{
-    height: 50px;
-  }
+.form{
+  /* box prénom-e-mail-tél-message: marges à l'intérieur du formulaire et arrondies */
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
 }
+/* style de la partie laissez votre message */
+.formulaire{ 
+  /* c'est la box qui contient le tout: couleur de l'arrière plan */
+  background-color: #fefadf;
+  /* margin: 0px; pas bon car colle les éléments au body*/
+  /* le padding c'est pour centrer */
+  padding: 0px; 
+  /* position: center; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  font-weight: bold;
+}
+.form h1{
+  font-size: 20px;
+}
+.form .separation{
+  /* la ligne de séparation(pas visible pourquoi?:largeur 100% avec couleur violette */
+  width: 100%;
+  height: 1px;
+  background-color: purple;
+}
+.form .corps-formulaire{
+  /* aligner les box à gauche et a droite et adapter au format mobile avec flex wrap 
+  et une marge en dessous de notre corps de formulaire */
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+form .corps-formulaire .groupe{
+  /* qui contient les labels prénom e-mail tél message: chaque block doit avoir des propriétés 
+  communes aux autres: avoir une grosse marge au dessus de chaque groupe 
+  pour l'espacement entre chaque groupe, display flex pour empiler les éléments 
+  et mettre la div droite à droite: pas de rendu car message devrait être à doite et le reste à gauche
+  mettre position relative pour position l'élément dans le flux de la page */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+form .corps-formulaire .gauche .groupe input{
+  /* mettre une marge à l'extérieur au dessus de chaq input pour espacer le label de l'input
+  ensuite agrandir l'input en augmentant les marges qu'il y'a à l'intérieur de chaque input: 
+  appliquer  la même marge au dessus et en dessous et différent à gauche et à droite(sens dessus droite en dessous à gauche */
+  margin-top: 5px;
+  padding: 10px 5px 10px 30px;
+  border: 1px solid #33ccff;
+  outline-color: #5898d8;
+  border-radius: 5px;
+}
+form .corps-formulaire .gauche .groupe i{
+  /* placer nos icones dans la marge de 30px appliquée à gauche */
+  position: absolute;
+  left: 0px;
+  top: 25px;
+  padding: 9px;
+  color: #33ccff;
+}
+form .corps-formulaire .droite{
+  margin-left: 40px;
+}
+form .corps-formulaire .droite .groupe{
+  height: 100%;
+}
+form .corps-formulaire .droite .groupe textarea{
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #88a0b4;
+  border: 2px solid purple;
+  outline: none;
+  border-radius: 5px;
+  resize: none;
+  height: 70%;
+}
+form .pied-formulaire button{
+  margin-top: 10px;
+  background-color: purple;
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+form .pied-formulaire button:hover{
+transform: scale(1.05);
+}
+
+
+
+@media screen and (max-width: 920px){
+form .corps-formulaire .droite{
+  margin-left: 0px;
+}
+}
+
 /* main{
-    margin: 0 2rem;
-    padding: 1rem;
-    position: relative;
+  margin: 0 2rem;
+  padding: 1rem;
+  position: relative;
 } */
