@@ -6,7 +6,7 @@
     font-family: "Poppins", sans-serif;
     font-size: 6rem;
     font-weight: 400;
-    color: #0ff;
+    color: #ff4da9;
     letter-spacing: 0.3rem;
     margin-bottom: 3rem;
     transition: opacity 0.3s;
@@ -21,7 +21,7 @@
     margin: 1rem 0;
     letter-spacing: 0.1rem;
     font-size: 1.7rem;
-    border: 0.1rem solid #0ff;
+    border: 0.1rem solid #ff4da9;
     background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
     height: 5rem;
@@ -31,7 +31,7 @@
     resize: none;
   }
   .contact-form-btn {
-    background-color: rgba(0, 255, 255, 0.5);
+    background-color: #ff4da9;
     width: 20rem;
     height: 5rem;
     padding: 1rem;
@@ -42,12 +42,27 @@
     font-weight: bolder;
     cursor: pointer;
     align-self: flex-start;
-  margin: auto;
+    margin: auto;
   }
-  
   .center {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
+  .image {
+    height: 5rem;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+  }
+  .image label {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .image input {
+    display: inline-block;
+  }

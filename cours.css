@@ -31,11 +31,6 @@ footer{
   left: 0;
   }
   /* début style en-tête */
-  /* header {
-    width: 100%;
-    position: fixed;
-  } */
-
   nav{
     width: 100%;
   }
@@ -187,8 +182,6 @@ nav h1 {
 /* fin style en-tête */
 /* début style corps de page indexhtml */
 section{
-  position: relative;
-  z-index: 100;
   width: 100%;
   min-height: 300px;
   padding-bottom: 10px;
@@ -221,14 +214,12 @@ h1{
   font-family: 'Neucha', cursive;
   font-size: 28px;
   margin: 20px 0px 0p 0px;
-  /*color: fuchsia;*/
 }
 .left{
   float: left;
   width: 50%;
 }
 .right{
-  text-align: center;
   height: 300px;
   width: 400px;
   color: white;
@@ -255,23 +246,24 @@ h1{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 
 .first-p1 {
-  text-align: center;
+  /* text-align: center; */
   background: #ffc30f;
   height: 100%;
   width: 400px;
   /* border: black solid 2px; */
   border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
 }
-#p1{
+.p1{
   background:  #ffff00;
   height: 100%;
   width: 80%;
   margin: auto;
   border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
-  line-height: 1.5;
+  /* line-height: 1.5; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -285,7 +277,7 @@ h1{
   /* border: black solid 2px; */
   border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
 }
-#p2{
+.p2{
   height: 100%;
   width: 80%;
   margin: auto;
@@ -296,6 +288,7 @@ h1{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 .first-p3 {
   text-align: center;
@@ -305,7 +298,19 @@ h1{
   /* border: black solid 2px; */
   border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
 }
-#p3{
+.p3{
+  background:  #ff4da9;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.p3F{
   background:  #ff4da9;
   height: 100%;
   width: 80%;
@@ -325,7 +330,15 @@ h1{
   /* border: black solid 2px; */
   border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
 }
-#p4{
+.title-heading{
+    font-size: 32px;
+    text-align: center;
+}
+.first-p4 .title-heading:last-child{
+    font-size: 26px;
+    text-align: center;
+}
+.p4{
   background: #ffb380;
   height: 100%;
   width: 80%;
@@ -336,6 +349,7 @@ h1{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+ 
 }
 /* c'est le style qui définit la liaison de la forme de tete avec les oreilles */
 .MAT{
@@ -547,26 +561,6 @@ h1{
   font-family: 'Rampart One', cursive;
   font-size: 10px;
 }
-#fb, #tw, #lk{
-  width: 50px;
-  height: 50px;
-  display: block;
-  position: absolute;
-}
-#fb{
-  background-image: url("logos-sociaux.png");
-  background-position: 0px 0px;
-}
-#tw{
-  background-image: url("logos-sociaux.png");
-  background-position: -50px 0px;
-  left: 200px;
-}
-#lk{
-  background: url("logos-sociaux.png") --100px -50px;
-  left: 400px;
-}
-
 
   section{
     width: 100%;
@@ -575,102 +569,7 @@ h1{
     margin-bottom: 10px;
   }
 
-  /* style formulaire */
-.form{
-  /* box prénom-e-mail-tél-message: marges à l'intérieur du formulaire et arrondies */
-  background-color: white;
-  padding: 30px;
-  border-radius: 10px;
-}
-/* style de la partie laissez votre message */
-.formulaire{ 
-  /* c'est la box qui contient le tout: couleur de l'arrière plan */
-  background-color: #fefadf;
-  /* margin: 0px; pas bon car colle les éléments au body*/
-  /* le padding c'est pour centrer */
-  padding: 0px; 
-  /* position: center; */
-  /* top: 50%; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
-  font-weight: bold;
-}
-.form h1{
-  font-size: 20px;
-}
-.form .separation{
-  /* la ligne de séparation(pas visible pourquoi?:largeur 100% avec couleur violette */
-  width: 100%;
-  height: 1px;
-  background-color: purple;
-}
-.form .corps-formulaire{
-  /* aligner les box à gauche et a droite et adapter au format mobile avec flex wrap 
-  et une marge en dessous de notre corps de formulaire */
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 30px;
-}
-form .corps-formulaire .groupe{
-  /* qui contient les labels prénom e-mail tél message: chaque block doit avoir des propriétés 
-  communes aux autres: avoir une grosse marge au dessus de chaque groupe 
-  pour l'espacement entre chaque groupe, display flex pour empiler les éléments 
-  et mettre la div droite à droite: pas de rendu car message devrait être à doite et le reste à gauche
-  mettre position relative pour position l'élément dans le flux de la page */
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-form .corps-formulaire .gauche .groupe input{
-  /* mettre une marge à l'extérieur au dessus de chaq input pour espacer le label de l'input
-  ensuite agrandir l'input en augmentant les marges qu'il y'a à l'intérieur de chaque input: 
-  appliquer  la même marge au dessus et en dessous et différent à gauche et à droite(sens dessus droite en dessous à gauche */
-  margin-top: 5px;
-  padding: 10px 5px 10px 30px;
-  border: 1px solid #33ccff;
-  outline-color: #5898d8;
-  border-radius: 5px;
-}
-form .corps-formulaire .gauche .groupe i{
-  /* placer nos icones dans la marge de 30px appliquée à gauche */
-  position: absolute;
-  left: 0px;
-  top: 25px;
-  padding: 9px;
-  color: #33ccff;
-}
-form .corps-formulaire .droite{
-  margin-left: 40px;
-}
-form .corps-formulaire .droite .groupe{
-  height: 100%;
-}
-form .corps-formulaire .droite .groupe textarea{
-  margin-top: 5px;
-  padding: 10px;
-  background-color: #88a0b4;
-  border: 2px solid purple;
-  outline: none;
-  border-radius: 5px;
-  resize: none;
-  height: 70%;
-}
-form .pied-formulaire button{
-  margin-top: 10px;
-  background-color: purple;
-  color: white;
-  font-size: 15px;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  outline: none;
-  cursor: pointer;
-  transition: transform 0.5s;
-}
-form .pied-formulaire button:hover{
-transform: scale(1.05);
-}
+ 
 @media screen and (max-width: 680px){
   body{background-color: green;
   }
@@ -697,8 +596,3 @@ form .corps-formulaire .droite{
 }
 }
 
-/* main{
-  margin: 0 2rem;
-  padding: 1rem;
-  position: relative;
-} */

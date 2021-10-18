@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Voici les différentes matières abordéesà l'école &Eacute;da.">
-    <title>&Eacute;veil Découverte Apprentissage (&Eacute;da)</title>
+    <meta name="description" content="L’école &Eacute;DA célébre la journée internationale du livre pour enfants .">
+    <title>&Eacute;le Associative Montessorienne &Eacute;veil Découverte Apprentissage (&Eacute;da)</title>
     <link type="text/css" rel="stylesheet" href="./style.css" />
-    <link type="text/css" rel="stylesheet" href="./cours.css" />
+    <link type="text/css" rel="stylesheet" href="./evenements.css" />
     <!--j'inserre ici un modele de police google du coup la police dans mon css consacrée à body peut-elle être supprimée-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
@@ -69,95 +69,52 @@
             <h1><strong>&Eacute;DA une école d’inspiration montessorienne élémentaire.</strong></h1>
         </nav>
     </header>
-    <section class="Montessori">
-        <div class="sec">
-            <div class="cer">
-                <div class="cercle c1">
-                    <p>Lecture Graphisme</p>
-                </div>
-                <div class="cercle c3">
-                    <p>compréhension écrite</p>
-                </div>
-                <div class="right">
-                    <div class="first-p1">
-                        <p class="title-heading p1">Français</p>
-                    </div>
-                </div>
-                <div class="cercle c4">
-                    <p>expression orale</p>
-                </div>
-                <div class="cercle c5">
-                    <p>expression écrite</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="specificites">
-        <div class="sec">
-            <div class="cer">
-                <div class="cercle cm1">
-                    <p>Manipulation Expérimentation</p>
-                </div>
-                <div class="cercle cm3">
-                    <p>Raisonnement</p>
-                </div>
-                <div class="right">
-                    <div class="first-p2">
-                        <p class="title-heading p2">Mathématiques</p>
-                    </div>
-                </div>
-                <div class="cercle cm4">
-                    <p>Modélisation</p>
-                </div>
-                <div class="cercle cm5">
-                    <p>Abstraction</p>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <section class="finalites">
         <div class="sec">
             <div class="cer">
                 <div class="cercle cELM0">
-                    <p>Histoire</p>
+                    <p>Présentez votre livre</p>
                 </div>
                 <div class="cercle cELM2">
-                    <p>Géographie</p>
+                    <p>Partagez un moment de lecture</p>
                 </div>
                 <div class="right">
                     <div class="first-p3">
-                        <p class="title-heading p3">Explorer le Monde</p>
-                    </div>
-                </div>
-                <div class="cercle cELM3">
-                    <p>Instruction-Civique</p>
-                </div>
-                <div class="cercle cELM4">
-                    <p>Sciences</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="equipe">
-        <div class="sec">
-            <div class="cer">
-                <div class="cercle LANG2">
-                    <p class="PL4">A l'occasions d'ateliers</p>
-                </div>
-                <div class="right">
-                    <div class="first-p4">
-                        <p class="title-heading p4">Initiation à l'Anglais <br>et<br> à l'Espagnol.<br>
-                            &Eacute;veil de l’enfant à la diversité linguistique et culturelle.
+                        <p id="p3">
+                            <strong>2 Avril Journée internaionale du livre pour enfants</strong>.
+                            A cet occasion partagez avec nous votre livre d'enfant préféré
+                            ou votre livre d'enfance préféré.
                         </p>
                     </div>
                 </div>
-                <div class="cercle LANG3">
-                    <p class="PL3">par l’intermédiaire de jeux et de chansons</p>
+                <div class="cercle cELM3">
+                    <p>par photo, audio,</p>
                 </div>
-
+                <div class="cercle cELM4">
+                    <p>et/ou vidéo !</p>
+                </div>
             </div>
         </div>
     </section>
+    <div class="form-wrapper">
+        <h2 class="form-heading">Célébrons ensemble cet événement</h2>
+        <form class="contact-form center">
+            <input type="text" class="contact-form-input" placeholder="Nom complet" />
+            <input type="email" class="contact-form-input" placeholder="Email" />
+            <input type="text" class="contact-form-input" placeholder="Présentation de votre livre" />
+            <textarea class="contact-form-input contact-form-textarea" placeholder="Résumé du livre"></textarea>
+
+            <div class="image">
+                <label for="img">Joindre vos images:</label>
+                <input type="file" id="img" name="img" accept="image/*">
+            </div>
+
+            <input type="submit" class="contact-form-btn" value="Envoyer" />
+        </form>
+    </div>
+    </section>
+
 
     <footer>
 
