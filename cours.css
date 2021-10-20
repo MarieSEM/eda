@@ -1,7 +1,7 @@
 
 /* début style corps de page indexhtml */
 *{
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
 section{
@@ -69,7 +69,7 @@ h1{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+
 }
 
 .first-p1 {
@@ -111,7 +111,7 @@ h1{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+
 }
 .first-p3 {
   text-align: center;
@@ -172,7 +172,7 @@ h1{
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
+
 }
 /* c'est le style qui définit la liaison de la forme de tete avec les oreilles */
 .MAT{
@@ -182,7 +182,7 @@ h1{
   width: 100px;
   height: 80px;
   background: #ffc30f;
-  border-radius: 20% 80% 77% 23% / 57% 55% 45% 43% 
+  border-radius: 20% 80% 77% 23% / 57% 55% 45% 43%
 }
 .c1{
   background: #ffcc00;
@@ -191,7 +191,7 @@ h1{
   font-style: oblique;
   font-family: 'Rampart One', cursive;
   font-size: 15px;
-  
+
 }
 .c2{
   background: #FFFF00;
@@ -233,12 +233,21 @@ h1{
   background: white;
 }
 .cercle{
-  color: white;
+  /*
+    color: white;
   padding: 50px;
   width: 50px;
   height: 10px;
   margin-right: -15px;
+  */
+  color: white;
+  padding: 5rem;
+  width: 5rem;
+  height: auto;
+  /* margin-right: -15px; */
+  text-align: center;
   /* mix-blend-mode: multiply; */
+
 }
 .c0{
   background: #ffc30f;
@@ -308,7 +317,7 @@ h1{
   font-family: 'Rampart One', cursive;
   font-size: 15px;
 }
-.cELM2{ 
+.cELM2{
   background: #ff99cc;
   border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
   font-weight: bold;
@@ -347,11 +356,9 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 150px; 
-    height: 80px; 
+    width: 150px;
+    height: 80px;
     font-size: 10px;
-    
-    
 }
 .c1P{
   background: #ff665c;
@@ -360,7 +367,7 @@ h1{
   font-style: oblique;
   font-family: 'Rampart One', cursive;
   font-size: 10px;
-  
+
 }
 .c3P{
   background: #ff667a;
@@ -369,7 +376,7 @@ h1{
   font-style: oblique;
   font-family: 'Rampart One', cursive;
   font-size: 10px;
-  
+
 }
 .LANG0{
   background: #ff8566;
@@ -385,7 +392,7 @@ h1{
   font-weight: bold;
   font-style: oblique;
   font-family: 'Rampart One', cursive;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
 }
 .LANG3{
@@ -394,13 +401,13 @@ h1{
   font-weight: bold;
   font-style: oblique;
   font-family: 'Rampart One', cursive;
-  font-size: 10px;
+  font-size: 15px;
 }
 .PL3{
   text-align: center;
   margin-top: 0px;
-  font-size: 12px;
- 
+  font-size: 15px;
+
 
 }
   section{
@@ -410,8 +417,8 @@ h1{
     margin-bottom: 10px;
   }
 
- 
-@media screen and (max-width: 680px){
+
+/* @media screen and (max-width: 680px){
   body{background-color: green;
   }
 }
@@ -435,5 +442,133 @@ h1{
 form .corps-formulaire .droite{
   margin-left: 0px;
 }
+} */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+  margin-top: 10rem;
+  /* border: #0923ce dotted 2px; */
 }
 
+
+@media screen and (max-width: 400px) {
+  header nav h1 {
+    font-size: 11px;
+    display: block;
+    width: 100%;
+    margin: auto 0 auto 8rem;
+  }
+  nav a img{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 8rem;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  nav ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0;
+    justify-content: center;
+    position: fixed;
+    top: 2rem;
+    right: 0;
+
+    }
+  nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    height: 12rem;
+    flex-direction: column;
+  }
+  nav ul li a {
+    padding: 0.5rem;
+    display: flex;
+    /* margin-right: 0.8rem; */
+    /* margin-left: 0.5rem; */
+    color: white;
+    font-size: 14px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* margin: auto; */
+    /* padding-top: 4rem; */
+    /* padding-bottom: 4rem; */
+    /* margin-top: 6rem; */
+    /* border: #0923ce dotted 2px; */
+  }
+  section{
+    /* margin-bottom: 1rem; */
+    border: #000 dotted 1px;
+  }
+.sec{
+margin-bottom: 10rem;
+margin-right: auto;
+margin-left: auto;
+height: auto;
+max-height: max-content;
+}
+.left{
+width: 50%;
+}
+.left img {
+    width: 90vw;
+    height: 50%;
+}
+
+.right{
+    margin: auto;
+/* border: #000 solid 1px; */
+}
+.first-p0 {
+font-size: 14px;
+  width: 90%;
+margin: 1rem auto;
+}
+.first-p1 {
+ font-size: 14px;
+  width: 90%;
+margin: 1rem auto;
+}
+.first-p2 {
+ font-size: 14px;
+  width: 90%;
+margin: 1rem auto;
+}
+.first-p3 {
+  font-size: 14px;
+  width: 90%;
+margin: 1rem auto;
+}
+.first-p4 {
+  font-size: 14px;
+  width: 90%;
+margin: 1rem auto;
+}
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+text-align: center;
+}
+footer .col-8 {
+    width: 100%;
+    font-weight: bold;
+}
+footer .col-4 {
+    display: none;
+}
+}
