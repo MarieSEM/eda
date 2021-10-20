@@ -367,7 +367,7 @@ h1{
     font-weight: bold;
     font-style: oblique;
     font-family: 'Rampart One', cursive;
-    /* font-size: 10px; */
+    font-size: 15px; 
   }
   .c3P{
     background: #ff667a;
@@ -375,7 +375,7 @@ h1{
     font-weight: bold;
     font-style: oblique;
     font-family: 'Rampart One', cursive;
-    /* font-size: 10px; */
+    font-size: 15px; 
   }
   .LANG0{
     background: #ff8566;
@@ -399,7 +399,7 @@ h1{
     font-weight: bold;
     font-style: oblique;
     font-family: 'Rampart One', cursive;
-    /* font-size: 10px; */
+    font-size: 15px;
   }
     section{
       width: 100%;

@@ -233,12 +233,21 @@ h1{
   background: white;
 }
 .cercle{
-  color: white;
+  /* 
+    color: white;
   padding: 50px;
   width: 50px;
   height: 10px;
   margin-right: -15px;
+  */
+  color: white;
+  padding: 5rem;
+  width: 5rem;
+  height: auto;
+  /* margin-right: -15px; */
+  text-align: center;
   /* mix-blend-mode: multiply; */
+  
 }
 .c0{
   background: #ffc30f;
@@ -350,8 +359,6 @@ h1{
     width: 150px; 
     height: 80px; 
     font-size: 10px;
-    
-    
 }
 .c1P{
   background: #ff665c;
@@ -385,7 +392,7 @@ h1{
   font-weight: bold;
   font-style: oblique;
   font-family: 'Rampart One', cursive;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
 }
 .LANG3{
@@ -394,12 +401,12 @@ h1{
   font-weight: bold;
   font-style: oblique;
   font-family: 'Rampart One', cursive;
-  font-size: 10px;
+  font-size: 15px;
 }
 .PL3{
   text-align: center;
   margin-top: 0px;
-  font-size: 12px;
+  font-size: 15px;
  
 
 }
