@@ -454,7 +454,7 @@ form .corps-formulaire .droite{
 }
 
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   header nav h1 {
     font-size: 11px;
     display: block;
@@ -492,8 +492,8 @@ form .corps-formulaire .droite{
   nav ul li a {
     padding: 0.5rem;
     display: flex;
-    /* margin-right: 0.8rem; */
-    /* margin-left: 0.5rem; */
+    margin-right: 0.8rem;
+    margin-left: 0.5rem;
     color: white;
     font-size: 14px;
   }
@@ -503,14 +503,14 @@ form .corps-formulaire .droite{
     align-items: center;
     justify-content: center;
     width: 100%;
-    /* margin: auto; */
-    /* padding-top: 4rem; */
-    /* padding-bottom: 4rem; */
-    /* margin-top: 6rem; */
-    /* border: #0923ce dotted 2px; */
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-top: 6rem;
+    border: #0923ce dotted 2px;
   }
   section{
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1rem;
     border: #000 dotted 1px;
   }
 .sec{
@@ -530,7 +530,7 @@ width: 50%;
 
 .right{
     margin: auto;
-/* border: #000 solid 1px; */
+border: #000 solid 1px;
 }
 .first-p0 {
 font-size: 14px;
@@ -571,4 +571,4 @@ footer .col-8 {
 footer .col-4 {
     display: none;
 }
-}
+} */

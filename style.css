@@ -194,7 +194,7 @@ nav h1 {
   font-weight: normal;
   text-transform: capitalize;
   color: white;
-  margin: auto 18rem;
+  margin: auto 16rem;
   padding: 4rem;
   justify-content: baseline;
   margin-bottom: 3rem;
@@ -703,6 +703,7 @@ form .pied-formulaire button {
 form .pied-formulaire button:hover {
   transform: scale(1.05);
 }
+
 @media screen and (max-width: 680px) {
   body {
     background-color: #fdac53;
@@ -731,7 +732,8 @@ form .pied-formulaire button:hover {
     margin-left: 0px;
   }
 }
-@media screen and (max-width: 400px) {
+
+/* @media screen and (max-width: 400px) {
   header nav h1 {
     font-size: 11px;
     display: block;
@@ -766,10 +768,6 @@ form .pied-formulaire button:hover {
     flex-direction: column;
   }
   nav ul li a {
-    padding: 0.5rem;
-    display: flex;
-    /* margin-right: 0.8rem; */
-    /* margin-left: 0.5rem; */
     color: white;
     font-size: 14px;
   }
@@ -779,14 +777,8 @@ form .pied-formulaire button:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
-    /* margin: auto; */
-    /* padding-top: 4rem; */
-    /* padding-bottom: 4rem; */
-    /* margin-top: 6rem; */
-    /* border: #0923ce dotted 2px; */
   }
   section {
-    /* margin-bottom: 1rem; */
     border: #000 dotted 1px;
   }
   .sec {
@@ -806,7 +798,6 @@ form .pied-formulaire button:hover {
 
   .right {
     margin: auto;
-    /* border: #000 solid 1px; */
   }
   .first-p0 {
     font-size: 14px;
@@ -847,10 +838,4 @@ form .pied-formulaire button:hover {
   footer .col-4 {
     display: none;
   }
-
-  /* main{
-  margin: 0 2rem;
-  padding: 1rem;
-  position: relative;
 } */
-}
