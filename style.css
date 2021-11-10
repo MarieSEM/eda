@@ -1,21 +1,20 @@
-
-*{
-  margin: 0; 
+* {
+  margin: 0;
   padding: 0;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
-    background-image: url("page-web.jpg");
-    font-size: 13px;
-    margin: 0px;
-    padding: 0px;
-    padding-top: 6rem;
-    padding-bottom: 8rem;
+  font-family: "Open Sans Condensed", sans-serif;
+  background-image: url("page-web.jpg");
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
 }
 .container {
   width: 100%;
@@ -26,14 +25,14 @@ body {
   /* border: #0923ce dotted 2px; */
 }
 
-footer{
+footer {
   width: 100%;
   position: fixed;
   bottom: 0;
   height: 150px;
   padding-top: 40px;
   text-align: center;
-  background-color: #FC427B;
+  background-color: #fc427b;
   border-top: 2px solid #aaa;
   color: white;
 }
@@ -45,15 +44,15 @@ footer{
   right: 0;
   bottom: 100%;
   left: 0;
-  }
-  /* début style en-tête */
-  header {
-    width: 100%;
-    position: fixed;
-    top: 0;
+}
+/* début style en-tête */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
 
-  }
-
+<<<<<<< HEAD
   nav{
     width: 100%;
   }
@@ -83,30 +82,60 @@ footer{
     left: 2rem;
     position: absolute;
   }
+=======
+nav {
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  height: 20rem;
+  flex-direction: column;
+}
+nav a {
+  text-decoration: none;
+  padding: 30px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+nav a img {
+  height: 15rem;
+  width: 15rem;
+  top: 2rem;
+  left: 2rem;
+  position: absolute;
+}
+>>>>>>> e48fbafb94d636ffe2cd83e0a81d493eed82b424
 
-nav > ul{
+nav > ul {
   margin: 0px;
   padding: 0px;
 }
-nav > ul > li{
+nav > ul > li {
   float: left;
   position: relative;
 }
-nav > ul::after{
+nav > ul::after {
   content: "";
   display: block;
   clear: both;
 }
-nav > ul > li > a{
+nav > ul > li > a {
   padding: 20px 30px;
   color: white;
 }
-nav li{
+nav li {
   list-style-type: none;
 }
 
-
-nav li:hover .submenu{
+nav li:hover .submenu {
   display: inline-block;
   position: absolute;
   top: 100%;
@@ -114,89 +143,89 @@ nav li:hover .submenu{
   padding: 0px;
   z-index: 1000;
 }
-.submenu{
+.submenu {
   display: none;
 }
-.submenu li{
+.submenu li {
   border-bottom: 1px solid #ccc;
   width: 100%;
   height: auto;
 }
-.submenu li a{
+.submenu li a {
   padding: 15px 30px;
   font-size: 13px;
   color: #222538;
   width: 270px;
 }
-nav li a{
+nav li a {
   font-size: 12px;
   padding: 10px;
 }
-nav ul{
-display: flex;
-margin: 0 auto;
-justify-content: flex-end;
-position: fixed;
-top: 2rem;
-right: 2rem;
+nav ul {
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-end;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
 }
-nav li{
+nav li {
   font-size: 15px;
   list-style-type: none;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
 }
-.menu-ind .submenu{
-  background-color:  #4C8;
+.menu-ind .submenu {
+  background-color: #4c8;
   width: 300px;
 }
-.menu-cour .submenu{
-  background-color:  #f1dc4f;
+.menu-cour .submenu {
+  background-color: #f1dc4f;
   width: 300px;
 }
-.menu-plan .submenu{
-  background-color:  #0070dd;
+.menu-plan .submenu {
+  background-color: #0070dd;
   width: 300px;
 }
-.menu-even .submenu{
-  background-color:  #e44de6;
+.menu-even .submenu {
+  background-color: #e44de6;
   width: 300px;
 }
-.menu-cont .submenu{
-  background-color:  #ff6347;
+.menu-cont .submenu {
+  background-color: #ff6347;
   width: 300px;
 }
-.submenu li:hover a{
+.submenu li:hover a {
   color: #eee;
   font-weight: bold;
 }
-.menu-ind .submenu li:hover{
-  background-color:  rgba(64, 200, 130, 0.15);
+.menu-ind .submenu li:hover {
+  background-color: rgba(64, 200, 130, 0.15);
 }
-.menu-cour .submenu li:hover{
+.menu-cour .submenu li:hover {
   background-color: rgba(241, 211, 79, 0.15);
 }
-.menu-plan .submenu li:hover{
-  background-color:  rgba(000, 112, 192, 0.15);
+.menu-plan .submenu li:hover {
+  background-color: rgba(000, 112, 192, 0.15);
 }
-.menu-even .submenu li:hover{
-  background-color:  rgba(228, 77, 38, 0.15);
+.menu-even .submenu li:hover {
+  background-color: rgba(228, 77, 38, 0.15);
 }
-.menu-cont .submenu li:hover{
-  background-color:  rgba(255, 165, 0, 0.15);
+.menu-cont .submenu li:hover {
+  background-color: rgba(255, 165, 0, 0.15);
 }
-nav li:hover a{
-  padding:  15px 20px 30px;
+nav li:hover a {
+  padding: 15px 20px 30px;
 }
-nav li:hover a{
+nav li:hover a {
   padding: 5px 10px 10px 10px;
 }
 nav h1 {
   font-size: 30px;
   font-weight: normal;
   text-transform: capitalize;
-  color:white; 
+  color: white;
   margin: auto 18rem;
   padding: 4rem;
   justify-content: baseline;
@@ -204,7 +233,7 @@ nav h1 {
 }
 /* fin style en-tête */
 /* début style corps de page indexhtml */
-section{
+section {
   /* position: relative; */
   /* z-index: 100; */
   width: 100%;
@@ -214,64 +243,69 @@ section{
   margin-bottom: 10px;
   /* border: #000 dotted 10px; */
 }
-.menu-ind:hover, .presentation{
-  border-top: 5px solid #4C8;
+.menu-ind:hover,
+.presentation {
+  border-top: 5px solid #4c8;
   background-color: rgba(64, 200, 130, 0.15);
 }
-.menu-cour:hover, .Montessori{
+.menu-cour:hover,
+.Montessori {
   border-top: 5px solid #f1dc4f;
   background-color: rgba(241, 211, 79, 0.15);
 }
-.menu-plan:hover, .specificites{
+.menu-plan:hover,
+.specificites {
   border-top: 5px solid #0070dd;
   background-color: rgba(000, 112, 192, 0.15);
 }
-.menu-even:hover, .finalites{
+.menu-even:hover,
+.finalites {
   border-top: 5px solid #e44de6;
   background-color: rgba(228, 77, 38, 0.15);
 }
-.menu-cont:hover, .equipe{
+.menu-cont:hover,
+.equipe {
   border-top: 5px solid #ff6347;
   background-color: rgba(255, 165, 0, 0.15);
 }
-.sec{
+.sec {
   margin: 0px 10%;
   height: 300px;
   max-height: max-content;
 }
-h1{
-  font-family: 'Neucha', cursive;
+h1 {
+  font-family: "Neucha", cursive;
   font-size: 28px;
   margin: 20px 0px 0p 0px;
   /*color: fuchsia;*/
 }
-.left{
+.left {
   float: left;
   width: 50%;
 }
-.right{
+.right {
   text-align: center;
   height: 280px;
   width: 400px;
   color: white;
   font-weight: bold;
   float: right;
-  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
 }
 .first-p0 {
   text-align: center;
-  background:  #4C8;
+  background: #4c8;
   height: 90%;
   width: 400px;
   /* border: black solid 2px; */
-  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
 }
-#p0{
+#p0 {
   height: 100%;
   width: 80%;
   margin: auto;
   border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
-  background:  #92e6b2;
+  background: #92e6b2;
   line-height: 1.5;
   display: flex;
   flex-direction: column;
@@ -285,10 +319,10 @@ h1{
   height: 100%;
   width: 400px;
   /* border: black solid 2px; */
-  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
 }
-#p1{
-  background:  #FFD700;
+#p1 {
+  background: #ffd700;
   height: 100%;
   width: 80%;
   margin: auto;
@@ -301,18 +335,18 @@ h1{
 }
 .first-p2 {
   text-align: center;
-  background:  #0070dd;
+  background: #0070dd;
   height: 100%;
   width: 400px;
   /* border: black solid 2px; */
-  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
 }
-#p2{
+#p2 {
   height: 100%;
   width: 80%;
   margin: auto;
   border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
-  background:  #5898d8;
+  background: #5898d8;
   line-height: 1.5;
   display: flex;
   flex-direction: column;
@@ -321,14 +355,14 @@ h1{
 }
 .first-p3 {
   text-align: center;
-  background:  #b3005c;
+  background: #b3005c;
   height: 100%;
   width: 400px;
   /* border: black solid 2px; */
-  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
 }
-#p3{
-  background:  #ff4da9;
+#p3 {
+  background: #ff4da9;
   height: 100%;
   width: 80%;
   margin: auto;
@@ -345,9 +379,9 @@ h1{
   height: 100%;
   width: 400px;
   /* border: black solid 2px; */
-  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
 }
-#p4{
+#p4 {
   background: #ffb380;
   height: 100%;
   width: 80%;
@@ -360,65 +394,69 @@ h1{
   justify-content: center;
 }
 /* c'est le style qui définit la liaison de la forme de tete avec les oreilles */
-.MAT{
+.MAT {
   color: white;
   font-size: 30px;
   padding: 100px;
   width: 100px;
   height: 80px;
   background: #ffc30f;
-  border-radius: 20% 80% 77% 23% / 57% 55% 45% 43% 
+  border-radius: 20% 80% 77% 23% / 57% 55% 45% 43%;
 }
-.c1{
+.c1 {
   background: #e6e600;
-  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
-  
 }
-.c2{
-  background: #FFFF00;
-  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
+.c2 {
+  background: #ffff00;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.c3{
-  background:  #FFFF00;;
-  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
+.c3 {
+  background: #ffff00;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.c4{
-  background: #FFD700;
-  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37% ;
+.c4 {
+  background: #ffd700;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.c5{
+.c5 {
   background: #ffff66;
   border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
 /* fin style corps index.htlm */
-.cer{
+.cer {
   display: flex;
   justify-content: center;
   padding: 20px;
   background: white;
 }
+<<<<<<< HEAD
 .cercle{
   /* color: white; 
+=======
+.cercle {
+  /* color: white;
+>>>>>>> e48fbafb94d636ffe2cd83e0a81d493eed82b424
   padding: 50px;
   width: 50px;
   height: 10px;
@@ -432,219 +470,220 @@ h1{
   text-align: center;
   /* mix-blend-mode: multiply; */
 }
-.c0{
+.c0 {
   background: #ffc30f;
-  border-radius: 50% 50% 47% 53% / 27% 27% 73% 73% ;
+  border-radius: 50% 50% 47% 53% / 27% 27% 73% 73%;
   font-size: 30px;
   padding: 100px;
   width: 100px;
   height: 80px;
 }
-.cm0{
-  background:  #0070dd;
-  border-radius: 50% 50% 47% 53% / 27% 27% 73% 73% ;
+.cm0 {
+  background: #0070dd;
+  border-radius: 50% 50% 47% 53% / 27% 27% 73% 73%;
   font-size: 30px;
   padding: 100px;
   width: 100px;
   height: 80px;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.cm1{
+.cm1 {
   background: #66ccff;
-  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.cm2{
+.cm2 {
   background: #80bfff;
-  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.cm3{
+.cm3 {
   background: #80bfff;
-  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.cm4{
+.cm4 {
   background: #99ccff;
-  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37% ;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.cm5{
+.cm5 {
   background: #b3d9ff;
-  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37% ;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.cELM0{
+.cELM0 {
   background: #ffb3d9;
-  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.cELM2{ 
+.cELM2 {
   background: #ff99cc;
-  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.cELM3{
+.cELM3 {
   background: #ffcce6;
-  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37% ;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.cELM4{
-  background:  #d199d1;
-  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37% ;
+.cELM4 {
+  background: #d199d1;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.LANG1{
-    background:    #ff5733;
-    margin: auto;
-    border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
-    line-height: 1.5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 150px; 
-    height: 80px; */
+.LANG1 {
+  background: #ff5733;
+  margin: auto;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 80px;
 }
-.c1P{
+.c1P {
   background: #ff665c;
-  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.c3P{
+.c3P {
   background: #ff667a;
-  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.LANG0{
+.LANG0 {
   background: #ff8566;
-  border-radius: 40% 60% 60% 40% / 75% 100% 0% 25%  ;
+  border-radius: 40% 60% 60% 40% / 75% 100% 0% 25%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.LANG2{
-  background:  #ff8566;
-  border-radius: 40% 60% 60% 40% / 75% 100% 0% 25%  ;
+.LANG2 {
+  background: #ff8566;
+  border-radius: 40% 60% 60% 40% / 75% 100% 0% 25%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-.LANG3{
+.LANG3 {
   background: #ff9980;
   border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 10px;
 }
-#fb, #tw, #lk{
+#fb,
+#tw,
+#lk {
   width: 50px;
   height: 50px;
   display: block;
   position: absolute;
 }
-#fb{
+#fb {
   background-image: url("logos-sociaux.png");
   background-position: 0px 0px;
 }
-#tw{
+#tw {
   background-image: url("logos-sociaux.png");
   background-position: -50px 0px;
   left: 200px;
 }
-#lk{
+#lk {
   background: url("logos-sociaux.png") --100px -50px;
   left: 400px;
 }
 
-
-  section{
-    width: 100%;
-    min-height: 300px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+section {
+  width: 100%;
+  min-height: 300px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
   /* border: #0070dd 1px solid; */
-  }
+}
 
-  /* style formulaire */
-.form{
+/* style formulaire */
+.form {
   /* box prénom-e-mail-tél-message: marges à l'intérieur du formulaire et arrondies */
   background-color: white;
   padding: 30px;
   border-radius: 10px;
 }
 /* style de la partie laissez votre message */
-.formulaire{ 
+.formulaire {
   /* c'est la box qui contient le tout: couleur de l'arrière plan */
   background-color: #fefadf;
   /* margin: 0px; pas bon car colle les éléments au body*/
   /* le padding c'est pour centrer */
-  padding: 0px; 
+  padding: 0px;
   /* position: center; */
   /* top: 50%; */
   /* left: 50%; */
   /* transform: translate(-50%, -50%); */
   font-weight: bold;
 }
-.form h1{
+.form h1 {
   font-size: 20px;
 }
-.form .separation{
+.form .separation {
   /* la ligne de séparation(pas visible pourquoi?:largeur 100% avec couleur violette */
   width: 100%;
   height: 1px;
   background-color: purple;
 }
-.form .corps-formulaire{
-  /* aligner les box à gauche et a droite et adapter au format mobile avec flex wrap 
+.form .corps-formulaire {
+  /* aligner les box à gauche et a droite et adapter au format mobile avec flex wrap
   et une marge en dessous de notre corps de formulaire */
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
-form .corps-formulaire .groupe{
-  /* qui contient les labels prénom e-mail tél message: chaque block doit avoir des propriétés 
-  communes aux autres: avoir une grosse marge au dessus de chaque groupe 
-  pour l'espacement entre chaque groupe, display flex pour empiler les éléments 
+form .corps-formulaire .groupe {
+  /* qui contient les labels prénom e-mail tél message: chaque block doit avoir des propriétés
+  communes aux autres: avoir une grosse marge au dessus de chaque groupe
+  pour l'espacement entre chaque groupe, display flex pour empiler les éléments
   et mettre la div droite à droite: pas de rendu car message devrait être à doite et le reste à gauche
   mettre position relative pour position l'élément dans le flux de la page */
   margin-top: 20px;
@@ -652,17 +691,17 @@ form .corps-formulaire .groupe{
   flex-direction: column;
   position: relative;
 }
-form .corps-formulaire .gauche .groupe input{
+form .corps-formulaire .gauche .groupe input {
   /* mettre une marge à l'extérieur au dessus de chaq input pour espacer le label de l'input
-  ensuite agrandir l'input en augmentant les marges qu'il y'a à l'intérieur de chaque input: 
+  ensuite agrandir l'input en augmentant les marges qu'il y'a à l'intérieur de chaque input:
   appliquer  la même marge au dessus et en dessous et différent à gauche et à droite(sens dessus droite en dessous à gauche */
   margin-top: 5px;
   padding: 10px 5px 10px 30px;
   border: 1px solid #33ccff;
-  outline-color: #5898d8; 
+  outline-color: #5898d8;
   border-radius: 5px;
 }
-form .corps-formulaire .gauche .groupe i{
+form .corps-formulaire .gauche .groupe i {
   /* placer nos icones dans la marge de 30px appliquée à gauche */
   position: absolute;
   left: 0px;
@@ -670,13 +709,13 @@ form .corps-formulaire .gauche .groupe i{
   padding: 9px;
   color: #33ccff;
 }
-form .corps-formulaire .droite{
+form .corps-formulaire .droite {
   margin-left: 40px;
 }
-form .corps-formulaire .droite .groupe{
+form .corps-formulaire .droite .groupe {
   height: 100%;
 }
-form .corps-formulaire .droite .groupe textarea{
+form .corps-formulaire .droite .groupe textarea {
   margin-top: 5px;
   padding: 10px;
   background-color: #88a0b4;
@@ -686,7 +725,7 @@ form .corps-formulaire .droite .groupe textarea{
   resize: none;
   height: 70%;
 }
-form .pied-formulaire button{
+form .pied-formulaire button {
   margin-top: 10px;
   background-color: purple;
   color: white;
@@ -698,9 +737,10 @@ form .pied-formulaire button{
   cursor: pointer;
   transition: transform 0.5s;
 }
-form .pied-formulaire button:hover{
-transform: scale(1.05);
+form .pied-formulaire button:hover {
+  transform: scale(1.05);
 }
+<<<<<<< HEAD
 @media screen and (max-width: 680px){
   body{background-color: #FDAC53  ;
   }
@@ -719,8 +759,23 @@ transform: scale(1.05);
     h1{
       font-size: 20px;
     }
+=======
+@media screen and (max-width: 680px) {
+  body {
+    background-color: #fdac53;
   }
+}
+@media screen and (min-width: 681px) and (max-width: 1279px) {
+  body {
+    background-color: #4dff4d;
+  }
+  h1 {
+    font-size: 20px;
+>>>>>>> e48fbafb94d636ffe2cd83e0a81d493eed82b424
+  }
+}
 
+<<<<<<< HEAD
   
   @media screen and (max-width: 920px){
     form .corps-formulaire .droite{
@@ -3034,80 +3089,7 @@ gir-nig
 gir-nig
 gir-nig
 gir-nig
-gir-nig
-gir-nig
-gir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-.0margin-right: ;thgir-nig
-margin-right: ;thgir-nig
-thgir-nig
-gir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-.0margin-right: ;thgir-nig
-margin-right: ;thgir-nig
-thgir-nig
-gir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-.0margin-right: ;thgir-nig
-margin-right: ;thgir-nig
-thgir-nig
-gir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-.0margin-right: ;thgir-nig
-margin-right: ;thgir-nig
-thgir-nig
-gir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
-mer5.0margin-right: ;thgir-nig
+
 .0margin-right: ;thgir-nig
 margin-right: ;thgir-nig
 thgir-nig
@@ -52394,10 +52376,142 @@ gir-nig
     font-size: 12px;
   }
 
+=======
+@media screen and (min-width: 1280px) and (max-width: 1279px) {
+  body {
+    background-color: #b3ffff;
+  }
+  h1 {
+    font-size: 20px;
+  }
 }
 
-/* main{
+@media screen and (max-width: 920px) {
+  form .corps-formulaire .droite {
+    margin-left: 0px;
+  }
+>>>>>>> e48fbafb94d636ffe2cd83e0a81d493eed82b424
+}
+@media screen and (max-width: 400px) {
+  header nav h1 {
+    font-size: 11px;
+    display: block;
+    width: 100%;
+    margin: auto 0 auto 8rem;
+  }
+  nav a img {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 8rem;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  nav ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0;
+    justify-content: center;
+    position: fixed;
+    top: 2rem;
+    right: 0;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    height: 12rem;
+    flex-direction: column;
+  }
+  nav ul li a {
+    padding: 0.5rem;
+    display: flex;
+    /* margin-right: 0.8rem; */
+    /* margin-left: 0.5rem; */
+    color: white;
+    font-size: 14px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* margin: auto; */
+    /* padding-top: 4rem; */
+    /* padding-bottom: 4rem; */
+    /* margin-top: 6rem; */
+    /* border: #0923ce dotted 2px; */
+  }
+  section {
+    /* margin-bottom: 1rem; */
+    border: #000 dotted 1px;
+  }
+  .sec {
+    margin-bottom: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    max-height: max-content;
+  }
+  .left {
+    width: 50%;
+  }
+  .left img {
+    width: 90vw;
+    height: 50%;
+  }
+
+  .right {
+    margin: auto;
+    /* border: #000 solid 1px; */
+  }
+  .first-p0 {
+    font-size: 14px;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .first-p1 {
+    font-size: 14px;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .first-p2 {
+    font-size: 14px;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .first-p3 {
+    font-size: 14px;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .first-p4 {
+    font-size: 14px;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    text-align: center;
+  }
+  footer .col-8 {
+    width: 100%;
+    font-weight: bold;
+  }
+  footer .col-4 {
+    display: none;
+  }
+
+  /* main{
   margin: 0 2rem;
   padding: 1rem;
   position: relative;
 } */
+}

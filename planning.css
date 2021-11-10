@@ -1,76 +1,79 @@
-
 /* début style corps de page indexhtml */
 * {
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
 
-section{
+section {
   width: 100%;
   min-height: 300px;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-.menu-ind:hover, .presentation{
-  border-top: 5px solid #4C8;
+.menu-ind:hover,
+.presentation {
+  border-top: 5px solid #4c8;
   background-color: rgba(64, 200, 130, 0.15);
 }
-.menu-cour:hover, .Montessori{
+.menu-cour:hover,
+.Montessori {
   border-top: 5px solid #f1dc4f;
   background-color: rgba(241, 211, 79, 0.15);
 }
-.menu-plan:hover, .specificites{
+.menu-plan:hover,
+.specificites {
   border-top: 5px solid #0070dd;
   background-color: rgba(000, 112, 192, 0.15);
 }
-.menu-even:hover, .finalites{
+.menu-even:hover,
+.finalites {
   border-top: 5px solid #e44de6;
   background-color: rgba(228, 77, 38, 0.15);
 }
-.menu-cont:hover, .equipe{
+.menu-cont:hover,
+.equipe {
   border-top: 5px solid #ff6347;
   background-color: rgba(255, 165, 0, 0.15);
 }
-.sec{
+.sec {
   margin: 0px 10%;
 }
-h1{
-  font-family: 'Neucha', cursive;
+h1 {
+  font-family: "Neucha", cursive;
   font-size: 28px;
   margin: 20px 0px 0p 0px;
 }
-.left{
+.left {
   float: left;
   width: 50%;
 }
-.right{
+.right {
   height: 300px;
   width: 400px;
   color: white;
   font-weight: bold;
   float: right;
-  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
 }
 .first-p0 {
   text-align: center;
-  background:  #4C8;
+  background: #4c8;
   height: 100%;
   width: 400px;
   /* border: black solid 2px; */
-  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
 }
-#p0{
+#p0 {
   height: 100%;
   width: 80%;
   margin: auto;
   border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
-  background:  #92e6b2;
+  background: #92e6b2;
   line-height: 1.5;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 .first-p1 {
@@ -79,10 +82,10 @@ h1{
   height: 100%;
   width: 400px;
   /* border: black solid 2px; */
-  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
 }
-.p1{
-  background:  #FFD700;
+.p1 {
+  background: #ffd700;
   height: 100%;
   width: 80%;
   margin: auto;
@@ -95,35 +98,34 @@ h1{
 }
 .first-p2 {
   text-align: center;
-  background:  #0070dd;
+  background: #0070dd;
   height: 100%;
   width: 400px;
   /* border: black solid 2px; */
-  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
 }
-.p2{
+.p2 {
   height: 100%;
   width: 80%;
   margin: auto;
   border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
-  background:  #5898d8;
+  background: #5898d8;
   line-height: 1.5;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 .first-p3 {
   text-align: center;
-  background:  #b3005c;
+  background: #b3005c;
   height: 100%;
   width: 400px;
   /* border: black solid 2px; */
-  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
 }
-.p3{
-  background:  #ff4da9;
+.p3 {
+  background: #ff4da9;
   height: 100%;
   width: 80%;
   margin: auto;
@@ -134,8 +136,8 @@ h1{
   align-items: center;
   justify-content: center;
 }
-.p3F{
-  background:  #ff4da9;
+.p3F {
+  background: #ff4da9;
   height: 100%;
   width: 80%;
   margin: auto;
@@ -152,17 +154,17 @@ h1{
   height: 100%;
   width: 400px;
   /* border: black solid 2px; */
-  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73% ;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
 }
-.title-heading{
-    font-size: 32px;
-    text-align: center;
+.title-heading {
+  font-size: 32px;
+  text-align: center;
 }
-.first-p4 .title-heading:last-child{
-    font-size: 26px;
-    text-align: center;
+.first-p4 .title-heading:last-child {
+  font-size: 26px;
+  text-align: center;
 }
-.p4{
+.p4 {
   background: #ffb380;
   height: 100%;
   width: 80%;
@@ -173,194 +175,401 @@ h1{
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
 }
-  /* c'est le style qui définit la liaison de la forme de tete avec les oreilles */
-  .MAT{
-    color: white;
-    font-size: 30px;
-    padding: 100px;
-    width: 100px;
-    height: 80px;
-    background: #ffc30f;
-    border-radius: 20% 80% 77% 23% / 57% 55% 45% 43% 
-  }
-.c1{
+/* c'est le style qui définit la liaison de la forme de tete avec les oreilles */
+.MAT {
+  color: white;
+  font-size: 30px;
+  padding: 100px;
+  width: 100px;
+  height: 80px;
+  background: #ffc30f;
+  border-radius: 20% 80% 77% 23% / 57% 55% 45% 43%;
+}
+.c1 {
   background: #ffcc00;
-  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
   font-weight: bold;
   font-style: oblique;
-  font-family: 'Rampart One', cursive;
+  font-family: "Rampart One", cursive;
   font-size: 15px;
 }
 
-  .c2{
-    background: #FFFF00;
-    border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
-  }
-  .c3{
-    background:  #cca333;
-    border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
-  }
-  .c4{
-    background: #FFD700;
-    border-radius: 50% 50% 100% 0% / 63% 65% 35% 37% ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
-  }
-  .c5{
-    background: #e6b81a;
-    border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
-  }
-  /* fin style corps index.htlm */
-  .cer{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background: white;
-  }
+.c2 {
+  background: #ffff00;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.c3 {
+  background: #cca333;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.c4 {
+  background: #ffd700;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.c5 {
+  background: #e6b81a;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+/* fin style corps index.htlm */
+.cer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: white;
+}
 /* Suppression de la margin-right et rajout de padding */
-  .cercle{
-    color: white;
-    padding: 5rem;
-    width: 5rem;
-    height: auto;
-    /* margin-right: -15px; */
-    text-align: center;
-    /* mix-blend-mode: multiply; */
-  }
-  .c0{
-    background: #ffc30f;
-    border-radius: 50% 50% 47% 53% / 27% 27% 73% 73% ;
-    font-size: 30px;
-    padding: 100px;
-    width: 100px;
-    height: 80px;
-  }
-  .cm0{
-    background:  #0070dd;
-    border-radius: 50% 50% 47% 53% / 27% 27% 73% 73% ;
-    font-size: 30px;
-    padding: 100px;
-    width: 100px;
-    height: 80px;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
-  }
-  .cm1{
-    background: #66ccff;
-    border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
-  }
-  .cm2{
-    background: #80bfff;
-    border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
-  }
-  .cm3{
-    background: #80bfff;
-    border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
-  }
-  .cm4{
-    background: #99ccff;
-    border-radius: 50% 50% 100% 0% / 63% 65% 35% 37% ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
-    /* border: 1px solid #000; */
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .cm4 p {
-    /* border: 1px solid #888; */
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
+.cercle {
+  color: white;
+  padding: 5rem;
+  width: 5rem;
+  height: auto;
+  /* margin-right: -15px; */
+  text-align: center;
+  /* mix-blend-mode: multiply; */
+}
+.c0 {
+  background: #ffc30f;
+  border-radius: 50% 50% 47% 53% / 27% 27% 73% 73%;
+  font-size: 30px;
+  padding: 100px;
+  width: 100px;
+  height: 80px;
+}
+.cm0 {
+  background: #0070dd;
+  border-radius: 50% 50% 47% 53% / 27% 27% 73% 73%;
+  font-size: 30px;
+  padding: 100px;
+  width: 100px;
+  height: 80px;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.cm1 {
+  background: #66ccff;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.cm2 {
+  background: #80bfff;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.cm3 {
+  background: #80bfff;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.cm4 {
+  background: #99ccff;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.cm4 p {
+  /* border: 1px solid #888; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
   margin-bottom: 10px;
+}
+.cm5 {
+  background: #b3d9ff;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.cELM0 {
+  background: #ffb3d9;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.cELM2 {
+  background: #ff99cc;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.cELM3 {
+  background: #ffcce6;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.cELM4 {
+  background: #d199d1;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.LANG1 {
+  background: #ff5733;
+  margin: auto;
+  border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 80px;
+}
+.c1P {
+  background: #ff665c;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.c3P {
+  background: #ff667a;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.LANG0 {
+  background: #ff8566;
+  border-radius: 40% 60% 60% 40% / 75% 100% 0% 25%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  /* font-size: 10px; */
+}
+.LANG2 {
+  background: #ff8566;
+  border-radius: 40% 60% 60% 40% / 75% 100% 0% 25%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  /* font-size: 10px; */
+}
+.LANG3 {
+  background: #ff9980;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+section {
+  width: 100%;
+  min-height: 300px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
 
+.MAT {
+  color: white;
+  font-size: 30px;
+  padding: 100px;
+  width: 100px;
+  height: 80px;
+  background: #ffc30f;
+  border-radius: 20% 80% 77% 23% / 57% 55% 45% 43%;
+}
+.c1 {
+  background: #ffcc00;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.c2 {
+  background: #ffff00;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.c3 {
+  background: #cca333;
+  border-radius: 46% 54% 54% 46% / 57% 97% 3% 43%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.c4 {
+  background: #ffd700;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+.c5 {
+  background: #e6b81a;
+  border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: "Rampart One", cursive;
+  font-size: 15px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+  margin-top: 10rem;
+  /* border: #0923ce dotted 2px; */
+}
+
+@media screen and (max-width: 680px) {
+  body {
+    background-color: green;
   }
-  .cm5{
-    background: #b3d9ff;
-    border-radius: 50% 50% 100% 0% / 63% 65% 35% 37% ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
+}
+@media screen and (min-width: 681px) and (max-width: 1279px) {
+  body {
+    background-color: red;
   }
-  .cELM0{
-    background: #ffb3d9;
-    border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
+  h1 {
+    font-size: 20px;
   }
-  .cELM2{ 
-    background: #ff99cc;
-    border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1279px) {
+  body {
+    background-color: red;
   }
-  .cELM3{
-    background: #ffcce6;
-    border-radius: 50% 50% 100% 0% / 63% 65% 35% 37% ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
+  h1 {
+    font-size: 20px;
   }
-  .cELM4{
-    background:  #d199d1;
-    border-radius: 50% 50% 100% 0% / 63% 65% 35% 37% ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    font-size: 15px;
+}
+
+@media screen and (max-width: 920px) {
+  form .corps-formulaire .droite {
+    margin-left: 0px;
   }
-  .LANG1{
-      background:    #ff5733;
-      margin: auto;
-      border-radius: 49% 51% 50% 50% / 27% 27% 73% 73%;
-      line-height: 1.5;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 150px; 
-      height: 80px; 
+}
+
+@media screen and (max-width: 400px) {
+  header nav h1 {
+    font-size: 11px;
+    display: block;
+    width: 100%;
+    margin: auto 0 auto 8rem;
   }
+  nav a img {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 8rem;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  nav ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0;
+    justify-content: center;
+    position: fixed;
+    top: 2rem;
+    right: 0;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    height: 12rem;
+    flex-direction: column;
+  }
+  nav ul li a {
+    padding: 0.5rem;
+    display: flex;
+    /* margin-right: 0.8rem; */
+    /* margin-left: 0.5rem; */
+    color: white;
+    font-size: 14px;
+  }
+
+  .container {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* margin: auto; */
+    /* padding-top: 4rem; */
+    /* padding-bottom: 4rem; */
+    /* margin-top: 6rem; */
+    /* border: #0923ce dotted 2px; */
+  }
+  section {
+    /* margin-bottom: 1rem; */
+    border: #000 dotted 1px;
+  }
+  .sec {
+    margin-bottom: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    max-height: max-content;
+  }
+  .left {
+    width: 50%;
+  }
+  .left img {
+    width: 90vw;
+    height: 50%;
+  }
+<<<<<<< HEAD
   .c1P{
     background: #ff665c;
     border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
@@ -376,23 +585,29 @@ h1{
     font-style: oblique;
     font-family: 'Rampart One', cursive;
     font-size: 15px; 
+=======
+
+  .right {
+    margin: auto;
+    /* border: #000 solid 1px; */
   }
-  .LANG0{
-    background: #ff8566;
-    border-radius: 40% 60% 60% 40% / 75% 100% 0% 25%  ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    /* font-size: 10px; */
+  .first-p0 {
+    font-size: 14px;
+    width: 90%;
+    margin: 1rem auto;
+>>>>>>> e48fbafb94d636ffe2cd83e0a81d493eed82b424
   }
-  .LANG2{
-    background:  #ff8566;
-    border-radius: 40% 60% 60% 40% / 75% 100% 0% 25%  ;
-    font-weight: bold;
-    font-style: oblique;
-    font-family: 'Rampart One', cursive;
-    /* font-size: 10px; */
+  .first-p1 {
+    font-size: 14px;
+    width: 90%;
+    margin: 1rem auto;
   }
+  .first-p2 {
+    font-size: 14px;
+    width: 90%;
+    margin: 1rem auto;
+  }
+<<<<<<< HEAD
   .LANG3{
     background: #ff9980;
     border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
@@ -400,90 +615,36 @@ h1{
     font-style: oblique;
     font-family: 'Rampart One', cursive;
     font-size: 15px;
+=======
+  .first-p3 {
+    font-size: 14px;
+    width: 90%;
+    margin: 1rem auto;
+>>>>>>> e48fbafb94d636ffe2cd83e0a81d493eed82b424
   }
-    section{
-      width: 100%;
-      min-height: 300px;
-      padding-bottom: 10px;
-      margin-bottom: 10px;
-    }
+  .first-p4 {
+    font-size: 14px;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    text-align: center;
+  }
+  footer .col-8 {
+    width: 100%;
+    font-weight: bold;
+  }
+  footer .col-4 {
+    display: none;
+  }
 
-    .MAT{
-      color: white;
-      font-size: 30px;
-      padding: 100px;
-      width: 100px;
-      height: 80px;
-      background: #ffc30f;
-      border-radius: 20% 80% 77% 23% / 57% 55% 45% 43% 
-    }
-    .c1{
-      background: #ffcc00;
-      border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
-      font-weight: bold;
-      font-style: oblique;
-      font-family: 'Rampart One', cursive;
-      font-size: 15px;
-      
-    }
-    .c2{
-      background: #FFFF00;
-      border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
-      font-weight: bold;
-      font-style: oblique;
-      font-family: 'Rampart One', cursive;
-      font-size: 15px;
-    }
-    .c3{
-      background:  #cca333;
-      border-radius: 46% 54% 54% 46% / 57% 97% 3% 43% ;
-      font-weight: bold;
-      font-style: oblique;
-      font-family: 'Rampart One', cursive;
-      font-size: 15px;
-    }
-    .c4{
-      background: #FFD700;
-      border-radius: 50% 50% 100% 0% / 63% 65% 35% 37% ;
-      font-weight: bold;
-      font-style: oblique;
-      font-family: 'Rampart One', cursive;
-      font-size: 15px;
-    }
-    .c5{
-      background: #e6b81a;
-      border-radius: 50% 50% 100% 0% / 63% 65% 35% 37%;
-      font-weight: bold;
-      font-style: oblique;
-      font-family: 'Rampart One', cursive;
-      font-size: 15px;
-    }
-  
-   
-  @media screen and (max-width: 680px){
-    body{background-color: green;
-    }
-  }
-  @media screen and (min-width: 681px) and (max-width: 1279px){
-    body{background-color: red;
-      }
-      h1{
-        font-size: 20px;
-      }
-    }
-  
-  @media screen and (min-width: 1280px) and (max-width: 1279px){
-    body{background-color: red;
-      }
-      h1{
-        font-size: 20px;
-      }
-    }
-  
-  @media screen and (max-width: 920px){
-  form .corps-formulaire .droite{
-    margin-left: 0px;
-  }
-  }
-  
-  
+  /* main{
+  margin: 0 2rem;
+  padding: 1rem;
+  position: relative;
+} */
+}
